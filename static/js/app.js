@@ -1,5 +1,5 @@
 //READ SAMPLE.JSON FILE
-d3.json("samples.json").then((bellyButtonData) => {
+d3.json("./data/samples.json").then((bellyButtonData) => {
     
     // retrieve data on samples
     var dataset= bellyButtonData.samples
